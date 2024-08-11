@@ -1,0 +1,63 @@
+.container {
+	width: 970px;
+	margin: auto;
+	text-align: center;
+	
+}
+.tengah {
+	text-align: center;
+}
+#table {
+	border-top: 1px solid #D9D9D9;
+	border-bottom: 1px solid #D9D9D9;
+	border-collapse: collapse;
+	width:100%;
+	font-size:0.812em;
+	font-family:arial;
+	color:#333;
+}
+#table td {
+	border-top: 1px solid #D9D9D9;
+	border-bottom: 1px solid #D9D9D9;
+	padding: 10px;
+}
+#table th {
+	border-top: 1px solid #D9D9D9;
+	border-bottom: 1px solid #D9D9D9;
+/*	background-color: #000; 
+	color: #fff; */
+	padding: 10px;
+	text-align: left;
+	font-size:13px;
+}
+#tableinfo
+{
+border:0; 
+font-size:0.875em;
+width:100%;
+margin: 0px 17px;
+font-family:arial;
+color:#333;
+}
+#header
+{
+margin: 0px 17px;
+width:50%;
+font-family:arial;
+color:#333;
+}
+
+#logo_image
+{
+	position: relative;
+	height: 60px;
+	margin: 1px 20px 1px 1px;
+	padding: 1px;
+	float: left;
+	width: 85px;
+	background-image: url('../images/odhea.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	
+}

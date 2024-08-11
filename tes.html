@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>slideUp demo</title>
+  <style>
+ div {
+   margin: 2px;
+  }
+  
+  
+  #satu{
+	  width:300px;
+	  height:300px;
+	  
+	  }
+	  
+	h1.satuatas{
+		margin:0px;
+		padding:5px;
+		background-color:#eee;
+		font-size:13px;
+		}
+		
+	h1.duaatas{
+		margin:0px;
+		padding:5px;
+		background-color:#eee;
+		font-size:13px;
+		}
+		
+	#bagan{
+		width:300px;
+		height:300px;
+		margin:0px auto;}
+		
+		
+  
+  </style>
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+
+
+<body>
+
+<div id="bagan">
+
+<h1 class="satuatas">Nama satu</h1>
+<div id="satu">
+ini satu
+</div>
+<h1 class="duaatas">Nama dua</h1>
+<div id="dua">
+ini satu
+</div>
+
+</div>
+
+ 
+
+<script>
+
+$('.satuatas').click(function() {
+	$('#satu').slideDown( "slow");
+	$('#dua').slideUp( "slow");
+	return false;
+});
+$('.duaatas').click(function() {
+	$('#dua').slideDown( "slow");
+	$('#satu').slideUp( "slow");
+	return false;
+});
+
+$(window).load(function(){
+	$('#satu').slideUp( "slow");
+	$('#dua').slideUp( "slow");
+});
+
+</script>
+
+ 
+</body>
+
+
+
+</html>
